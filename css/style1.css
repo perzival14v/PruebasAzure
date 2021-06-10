@@ -1,0 +1,31 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
+}
+
+.barraSuperior{
+	background-color: #007399;
+	display: inline-block;
+	width: 100%;
+}
+
+
+.contenedor{
+	display: flex;
+	flex-direction: row;
+}
+
+.barraIzquierda{
+	background-color: #f4f4f4 ;
+	display: inline-block;
+	height: 100vh;
+	flex-grow: 1;
+}
+
+.contenido{
+	background-color: #a000ff;
+	display: inline-block;	
+	height: 100vh;
+	flex-grow: 5;
+}
